@@ -239,6 +239,7 @@ div.button-border {
 	}
 
 	#portfolio-buttons {
+		margin: 10px 0px 0px;
 		left: 0px;
 		opacity: 1;
 		width: 90%;
@@ -262,6 +263,14 @@ div.button-border {
 		width: 90%;
 		height: 43px;
 		padding: 10px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+
+	a.button p {
+		font-size: 16px;
 	}
 
 }
