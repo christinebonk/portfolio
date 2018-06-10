@@ -211,7 +211,33 @@ div.button-border {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
+#contact-box {
+	width: 50%;
+	text-align: center;
+	background: rgba(70, 80, 50, 0.95);
+	border-radius: 25px;
+	padding: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#contact-box p, a {
+	text-transform: uppercase;
+	color: #FFF8F0;
+	text-decoration: none;
+
+}
+
+
+
+/*Media Queries*/
 
 @media only screen and (max-width: 850px) {
 
@@ -224,6 +250,10 @@ div.button-border {
 	}
     #portfolio-buttons a {
 		width: 33.33%;
+	}
+
+	#contact-box {
+		width: 70%;
 	}
 }
 
@@ -271,6 +301,11 @@ div.button-border {
 
 	a.button p {
 		font-size: 16px;
+	}
+
+	#contact-box {
+		width: 90%;
+		height: 50%;
 	}
 
 }
