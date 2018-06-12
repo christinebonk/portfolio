@@ -11,6 +11,28 @@ html {
 	font-size: 62.5%;
 }
 
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #A63F3F;
+	z-index: 3;
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-around;
+	padding: 0px;
+}
+
+nav ul li {
+	list-style-type: none;
+	font-size: 2rem;
+	color: #FFF8F0;
+	text-transform: none;
+}
+
 h1 {
 	font-family: 'Playfair Display', serif;
 	color: #465032;
@@ -44,11 +66,6 @@ header {
 	flex-direction: column;
 	justify-content: center;
 }
-
-nav {
-	background: black;
-}
-
 
 header p {
 	font-size: 4rem;
@@ -127,6 +144,7 @@ figcaption {
 
 .portfolio-main-middle {
 	display: flex;
+	justify-content: center;
 	padding: 0px 0px;
 }
 
@@ -225,15 +243,15 @@ div.button-border {
 /*Triange*/
 .triangle {
 	position: absolute;
-	border-top: 50px solid #DDB450;
-	border-bottom: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-left: 50px solid transparent; 
+	border-top: 40px solid #DDB450;
+	border-bottom: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-left: 40px solid transparent; 
 	z-index: 2;
 }
 
 .bottom-triangle {
-	border-top: 50px solid #FFF8F0;
+	border-top: 40px solid #FFF8F0;
 }
 
 /*Contact Me*/
@@ -267,6 +285,21 @@ div.button-border {
 	text-decoration: none;
 
 }
+
+.icon-box i {
+	font-size: 30px;
+	padding: 10px;
+	transition: color 0.3s;
+}
+
+.icon-box i:hover {
+	font-size: 30px;
+	padding: 10px;
+	color: #DDB450;
+}
+
+
+
 
 
 
