@@ -1,19 +1,19 @@
 var portfolio = [
 	{
-		title: "Word Guess Game",
-		subtitle: "HTML5, CSS, Javascript",
-		description: "A simple word guess game, where users are presented with unknown horror movies that they must guess, letter by letter, before the hangman drawing is complete.",
-		link: "https://christinebonk.github.io/Word-Guess-Game/",
-		glink: "https://github.com/christinebonk/Word-Guess-Game",
-		src: "assets/images/hangman.png"
+		title: "Super Candy Quest",
+		subtitle: "Phaser 3, Handlebars, CSS, JQuery",
+		description: "A game where you must collect as many ginger ale cans as possible in Candy Land before time runs out.",
+		link: "https://shrouded-ridge-73704.herokuapp.com/",
+		glink: "https://github.com/christinebonk/super-ryan",
+		src: "assets/images/lollipop.png"
 	},
 	{
-		title: "Multiplayer RPS",
-		subtitle: "HTML5, CSS, Javascript, Firebase",
-		description: "A two-player game where opponents must compete to becomes the rock, paper, scissors champions",
-		link: "https://christinebonk.github.io/RPS-Multiplayer/",
-		glink: "https://github.com/christinebonk/RPS-Multiplayer",
-		src: "assets/images/rps.png"
+		title: "FriendFinder",
+		subtitle: "HTML5, CSS, Javascript",
+		description: "An application that matches you with your next best friend",
+		link: "https://boiling-hamlet-41187.herokuapp.com/",
+		glink: "https://github.com/christinebonk/FriendFinder",
+		src: "assets/images/friendship.png"
 	},
 	{
 		title: "Pokeman Game",
@@ -93,6 +93,7 @@ $(window).scroll(function(){
 	} else {
 	    if ($(window).scrollTop() > 300) {
 	        portfolioAnimation();
+	        
 	    }
 	}
 
